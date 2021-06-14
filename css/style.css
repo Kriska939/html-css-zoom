@@ -24,6 +24,7 @@ body {
 
 .grey-bg {
     background-color: #4a4a4a;
+    padding: 0 30px;
 }
 
 /* HEADER */
@@ -52,7 +53,7 @@ header {
 main {
     background-color: black;
     overflow-y: scroll;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 90px);
     padding-top: 60px;
 }
 
@@ -75,8 +76,6 @@ footer {
     display: flex;
     justify-content:space-between;
     text-align: center;
-    flex-wrap: wrap;
-    align-items: center;
     position: fixed;
     width: 100%;
 }
@@ -85,6 +84,9 @@ footer {
     display: flex;
     margin-left: 10px;
     font-size: 14px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
     }
 
 footer .fas {
