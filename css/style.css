@@ -18,6 +18,10 @@ body {
     color: red;
 }
 
+.green {
+    color: #4bc800;
+}
+
 .grey-bg {
     background-color: #4a4a4a;
 }
@@ -29,8 +33,6 @@ header {
     background-color: black; 
     display: flex;
     justify-content: flex-end;
-    width: 100%;
-    position: fixed;
 }
 
 .nav-options {
@@ -41,14 +43,12 @@ header {
     height: 40%;
     border-radius: 5px;
     margin-top: 5px;
-
 }
 
 /* MAIN */
 
 main {
     background-color: black;
-    padding-top: 60px;
 }
 
 #container-users {
@@ -71,6 +71,8 @@ footer {
     display: flex;
     justify-content:space-between;
     text-align: center;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .footer-elements {
@@ -83,12 +85,22 @@ footer .fas {
     font-size: 28px;
 }
 
+.options-footer {
+    margin-right: 20px;
+}
+
+.arrow {
+    align-self: center;
+}
+
 .options-footer .fa-angle-up {
     font-size: 14px;
     justify-content: center;
 }
 
-.options-footer {
-    margin-right: 20px;
+.options-footer .fa-user-plus {
+    padding-left: 8px;
 }
+
+
 
