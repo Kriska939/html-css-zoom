@@ -8,31 +8,87 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    color: white;
 }
 
 
 /* UTILITIES */
 
+.red-text {
+    color: red;
+}
+
+.grey-bg {
+    background-color: #4a4a4a;
+}
+
 /* HEADER */
 
 header {
-    height: 40px; 
+    height: 60px; 
     background-color: black; 
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    position: fixed;
 }
 
 .nav-options {
-    color: white;
     font-size: 12px;
+    margin-right: 5px;
+    background-color: rgb(66, 66, 66);
+    padding: 5px 5px;
+    height: 40%;
+    border-radius: 5px;
+    margin-top: 5px;
+
 }
 
 /* MAIN */
 
 main {
     background-color: black;
+    padding-top: 60px;
 }
+
+#container-users {
+    display: flex;
+    flex-basis: 90vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#container-users img {
+    margin: 3px 3px;
+}
+
 
 /* FOOTER */
 
 footer {
     height: 90px;
+    background-color: #222222;
+    display: flex;
+    justify-content:space-between;
+    text-align: center;
 }
+
+.footer-elements {
+    display: flex;
+    margin-left: 10px;
+    font-size: 14px;
+    }
+
+footer .fas {
+    font-size: 28px;
+}
+
+.options-footer .fa-angle-up {
+    font-size: 14px;
+    justify-content: center;
+}
+
+.options-footer {
+    margin-right: 20px;
+}
+
