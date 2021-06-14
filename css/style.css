@@ -1,0 +1,38 @@
+/* GENERAL */
+
+* {
+    box-sizing:border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* UTILITIES */
+
+/* HEADER */
+
+header {
+    height: 40px; 
+    background-color: black; 
+}
+
+.nav-options {
+    color: white;
+    font-size: 12px;
+}
+
+/* MAIN */
+
+main {
+    background-color: black;
+}
+
+/* FOOTER */
+
+footer {
+    height: 90px;
+}
