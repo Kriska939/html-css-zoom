@@ -11,7 +11,6 @@ body {
     color: white;
 }
 
-
 /* UTILITIES */
 
 .red-text {
@@ -52,7 +51,7 @@ header {
 
 main {
     background-color: black;
-    overflow-y: scroll;
+    overflow: auto;
     height: calc(100vh - 90px);
     padding-top: 60px;
 }
@@ -109,6 +108,3 @@ footer .fas {
 .options-footer .fa-user-plus {
     padding-left: 8px;
 }
-
-
-
