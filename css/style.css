@@ -61,10 +61,30 @@ main {
 }
 
 #container-users img {
-    margin: 3px 3px;
+    border: 3px solid black;
+    border-bottom: 0px;
     object-fit: cover;
 }
 
+.img-container {
+    position: relative;
+}
+
+.mute-user {
+    position: absolute;
+    bottom: 4%;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    font-size: 14px;
+}
+
+.mute-user .fas {
+    padding-left: 5px;
+}
+
+.img-container:hover {
+    border: 1px solid red;
+}
 
 /* FOOTER */
 
