@@ -33,8 +33,6 @@ header {
     background-color: black; 
     display: flex;
     justify-content: flex-end;
-    position: fixed;
-    width: 100%;
 }
 
 .nav-options {
@@ -52,8 +50,8 @@ header {
 main {
     background-color: black;
     overflow: auto;
-    height: calc(100vh - 90px);
-    padding-top: 60px;
+    height: calc(100vh - 150px);
+
 }
 
 #container-users {
@@ -64,6 +62,7 @@ main {
 
 #container-users img {
     margin: 3px 3px;
+    object-fit: cover;
 }
 
 
@@ -75,8 +74,6 @@ footer {
     display: flex;
     justify-content:space-between;
     text-align: center;
-    position: fixed;
-    width: 100%;
 }
 
 .footer-elements {
